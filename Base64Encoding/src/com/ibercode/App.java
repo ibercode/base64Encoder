@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		System.out.println("ENCRYPTED " + encrypted);
 		
 		String decrypted = B64Encoder.getDecoded(encrypted);
-		System.out.println("DECRIPTED " + decrypted);
+		System.out.println("DECRYPTED " + decrypted);
 		
 		scanner.close();
 	}
